@@ -1,0 +1,12 @@
+edu/umg/programacion2/clase03/modelo/Usuario.class
+edu/umg/programacion2/clase03/ejercicios/paises/ContadorPaises.class
+edu/umg/programacion2/clase03/repositorio/DatosRespaldoUsuarios.class
+edu/umg/programacion2/clase03/Main.class
+edu/umg/programacion2/clase03/api/ApiUsuariosException.class
+edu/umg/programacion2/clase03/ejercicios/paises/EjercicioContadorPaises.class
+edu/umg/programacion2/clase03/ejercicios/busqueda/EjercicioBuscadorPorNombre.class
+edu/umg/programacion2/clase03/api/ClienteUsuariosApi.class
+edu/umg/programacion2/clase03/demo/DemoRepositorioUsuarios.class
+edu/umg/programacion2/clase03/repositorio/RepositorioUsuarios.class
+edu/umg/programacion2/clase03/modelo/Usuario$1.class
+edu/umg/programacion2/clase03/ejercicios/busqueda/BuscadorPorNombre.class
