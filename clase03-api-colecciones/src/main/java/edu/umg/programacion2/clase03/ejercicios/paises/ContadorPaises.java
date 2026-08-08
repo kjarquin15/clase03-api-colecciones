@@ -1,5 +1,5 @@
 package edu.umg.programacion2.clase03.ejercicios.paises;
-
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -28,7 +28,14 @@ import edu.umg.programacion2.clase03.modelo.Usuario;
 public class ContadorPaises {
 
 	public Map<String, Integer> contarPorPais(List<Usuario> usuarios) {
-		// TODO: reemplazar esta línea por la lógica descrita arriba.
-		throw new UnsupportedOperationException("TODO: completar contarPorPais() en ContadorPaises");
+	    Map<String, Integer> conteo = new HashMap<>();
+
+	    for (Usuario usuario : usuarios) {
+	        String pais = usuario.getPais();
+	        int cantidadActual = conteo.getOrDefault(pais, 0);
+	        conteo.put(pais, cantidadActual + 1);
+	    }
+
+	    return conteo;
 	}
 }
